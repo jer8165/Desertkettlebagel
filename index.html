@@ -9,38 +9,22 @@
   header{background:#0066cc;color:white;text-align:center;padding:80px 20px}
   h1{font-size:3em;margin:0}
   .tagline{font-size:1.4em;margin:10px 0}
+  .hero img{max-width:100%;max-height:70vh;object-fit:cover;border-radius:15px;box-shadow:0 10px 25px rgba(0,0,0,0.2)}
   section{padding:40px 20px;text-align:center}
-  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin:40px 0}
-  .gallery img{width:100%;height:auto;border-radius:15px;box-shadow:0 6px 15px rgba(0,0,0,0.15)}
-  .gallery p{margin:8px 0 0;font-weight:bold;color:#0066cc}
-  .flavors{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;margin:30px 0}
-  .flavor{background:#fff;border:3px solid #0066cc;border-radius:12px;padding:20px;font-size:1.2em}
   .price{font-size:2.2em;color:#0066cc;font-weight:bold}
   footer{background:#0066cc;color:white;padding:25px;text-align:center}
   a{color:#0066cc;text-decoration:none;font-weight:bold}
-  a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
 
 <header>
   <h1>Desert Kettle Bagel Co.</h1>
-  <p class="tagline">Hand-rolled • Kettle-boiled • Fresh Daily<br>NW Tucson • Marana • Picture Rocks</p>
+  <p class="tagline">Homemade • Kettle-boiled • Fresh Daily<br>NW Tucson • Marana • Picture Rocks</p>
 </header>
 
-<section>
-  <h2>Our Fresh Kettle-Boiled Bagels</h2>
-  <div class="gallery">
-    <div><img src="https://i.imgur.com/9XbL5eI.jpg" alt="Plain bagel"><p>Plain</p></div>
-    <div><img src="https://i.imgur.com/0kR5p8J.jpg" alt="Everything bagel"><p>Everything</p></div>
-    <div><img src="https://i.imgur.com/4dO0T8b.jpg" alt="Cheddar bagel"><p>Cheddar</p></div>
-    <div><img src="https://i.imgur.com/2jR7sYk.jpg" alt="Jalapeño Cheddar"><p>Jalapeño Cheddar</p></div>
-    <div><img src="https://i.imgur.com/8iL3vZm.jpg" alt="Cinnamon Sugar"><p>Cinnamon Sugar</p></div>
-    <div><img src="https://i.imgur.com/6pL9kRt.jpg" alt="Garlic bagel"><p>Garlic</p></div>
-    <div><img src="https://i.imgur.com/eR9mP0f.jpg" alt="Pumpernickel"><p>Pumpernickel</p></div>
-    <div><img src="https://i.imgur.com/3sY7vXh.jpg" alt="Whole Wheat"><p>Whole Wheat</p></div>
-    <div><img src="https://i.imgur.com/5vJ2kLm.jpg" alt="Blueberry bagel"><p>Blueberry</p></div>
-  </div>
+<section class="hero">
+  <img src="hero-bagel.jpg" alt="Desert Kettle Bagels">
 </section>
 
 <section style="background:#e6f2ff">
@@ -52,11 +36,11 @@
 <section>
   <h2>Order Now</h2>
   <p>Text or call: <a href="tel:YOUR-NUMBER">YOUR NUMBER</a><br>
-  Message us on Facebook • Nextdoor • Call</p>
+  Facebook • Nextdoor • Call</p>
 </section>
 
 <footer>
-  Desert Kettle Bagel Co. • NW Tucson, AZ • Fresh bagels made with love in the desert
+  Desert Kettle Bagel Co. • NW Tucson, AZ
 </footer>
 
 </body>
